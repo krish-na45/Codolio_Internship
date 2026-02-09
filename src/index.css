@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: rgb(249, 250, 251);
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 text-white rounded-lg hover:opacity-90 transition font-medium;
+  }
+
+  .btn-secondary {
+    @apply px-4 py-2 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition;
+  }
+}
+
